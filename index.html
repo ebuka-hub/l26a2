@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <h2>Simple Inheritance for kids</h2>
+
+            <p id="details"></p>
+            <script>
+                // parent object
+                var animal = {
+                    type: "animal1",
+                    legs: 4
+                };
+
+                // Child object inherits from animals
+                var dog = object.create(animal);
+                dog.name = "Buddy";
+                dog.sound = "bark";
+
+               // Display details
+
+var details = "The " + dog.type + " has " + dog.legs + " legs. " +
+
+"Its called" + dog.name + " and it says " + dog.sound + ".";
+
+document.getElementById("details").innerHTML = details;
+                
+            </script>
+        </body>
+    </head>
+</html>
